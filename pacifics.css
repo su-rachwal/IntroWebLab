@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+
+
+
+#mobile{
+    display: none;
+}
+
+#desktop{
+    display: inline;
+
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B8DBED;
+    color:#666666;
+
+
+}
+header{
+    background-color:#000033;
+    color:#FFFFFF;
+    text-align: center;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 3em;
+
+}
+#wrapper{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #90C7E3;
+    border: 1px solid #000033;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px #333333;
+    background-image: linear-gradient(#FFFFFF, #90C7E3)
+
+}
+
+nav{
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    list-style: none;
+
+}
+
+
+nav ul li a:link {color: #5C7FA3}
+nav ul li a:visited{color: #344873}
+nav ul li a:hover {color: #A52A2A}
+
+main {
+    padding: 1px 20px 20px 30px;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+}
+
+/* Configure the unordered list in the main content area.
+Replace the ul element selector with a descendant selector(main ul) to specify only ul element within the main content
+ */
+main ul {
+    list-style-image: url("./images/marker.gif");
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #3399CC;
+    text-shadow: 1px 1px #CCCCCC;
+
+}
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+
+#homehero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url("./images/coast2.jpg");
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#trailhero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url("./images/trail.jpg");
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#yurthero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-image: url("./images/yurt.jpg");
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+
+dt {
+    color: #000033
+}
+
+footer {
+    font-size: 75%;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+#contact{
+    font-size:90%;
+}
+
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+
+}
+
+td{
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #f5fafc;
+}
+
+th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    text-align: center;
+}
+
+.text{
+    text-align: left;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 15px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    margin-left: 130px;
+}
+
+video, embed {
+    float: right;
+    padding-left: 20px;
+}
+#gallery span{
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span{
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 64em) {
+
+    body{
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+    #wrapper{
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+        border: none;
+    }
+    header{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        height: auto;
+    }
+    h1{
+        letter-spacing: 0.1em;
+    }
+    main{
+        margin-left: 0;
+    }
+    nav{
+        float:none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+    nav ul li{
+        padding: 0.25em 0.75em 0.25em 0.75em;
+        display: inline;
+
+    }
+    #homehero{
+        margin-left: 0;
+        height: 200px;
+    }
+
+    #yurthero{
+        margin-left: 0;
+        height: 200px;
+    }
+    #trailhero{
+        margin-left: 0;
+        height: 200px;
+    }
+    footer{
+        margin-left: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 37.5em){
+    main{
+        padding: 0.1em 1em 0.1em 1em;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    nav{
+        padding: 0;
+    }
+    nav ul li{
+        display: block;
+        margin: 0;
+        border-bottom: 2px solid #330000;
+    }
+    nav ul li a{
+        display: block;
+
+    }
+    #homehero{
+        background-image: none;
+        height: 0;
+    }
+    #yurthero{
+        background-image: none;
+        height: 0;
+    }
+    #trailhero{
+        background-image: none;
+        height: 0;
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+
+    label {
+        float: none;
+        text-align: left;
+    }
+    input[type="submit"]{
+        margin-left: 0;
+    }
+}
+
+
+

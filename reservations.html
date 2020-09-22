@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort::Reservation</title>
+    <link rel="stylesheet" href="./pacifics.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+    <h1> Pacific Trails Resort</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+    </ul>
+
+</nav>
+
+
+
+
+<main>
+    <h2> Reservations at Pacific Trails
+
+    </h2>
+    <h3>
+        Contact Us Today!
+    </h3>
+
+    <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+        <label for="myFName">*First Name:</label>
+        <input type="text" id="myFName" name="myFName" required>
+
+        <label for="myLName">*Last Name:</label>
+        <input type="text" id="myLName" name="myLName" required>
+
+        <label for="myEmail">*Email:</label>
+        <input type="email" size="35" id="myEmail" name="myEmail" required>
+
+        <label for="myPhone">Phone:</label>
+        <input type="tel" maxlength="12" id="myPhone" name="myPhone">
+
+        <label for="arrivalDate">Arrival Date:</label>
+        <input type="date" name="arrivalDate" id="arrivalDate">
+
+        <label for="Nights">Nights: </label>
+        <input type="number" min="1" max="14" id="Nights" name="nights">
+
+        <label for="myComments">*Comments:</label>
+        <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+
+    <div id="contact">
+        <span class="resort"> Pacific Trails Resort</span><br>
+        12010 Pacific Trails Road<br>
+        Zephyr, CA 95555<br><br>
+        <a id="mobile" href="tel: 888-555-5555">888-555-5555</a>
+        <span id="desktop">888-555-5555</span>
+    </div>
+    <br>
+
+</main>
+<footer>
+    <em> Copyright &copy; 2018 Pacific Trails Resort</em>
+    <br>
+    <a href="mailto:srachwal1@my.wctc.edu">srachwal1@my.wctc.edu</a>
+    <br>
+    <a href="privacy.html">Our Privacy Policy</a>
+
+</footer>
+</div>
+</body>
+</html>
