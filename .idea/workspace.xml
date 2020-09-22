@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d86baf9-edd2-4837-b677-45bd393493df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/activities.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/coast.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/coast2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
@@ -22,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/images/thumb6.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/trail.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/yurt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <workItem from="1600399933223" duration="626000" />
       <workItem from="1600400677420" duration="990000" />
       <workItem from="1600800491126" duration="1112000" />
-      <workItem from="1600801979540" duration="3648000" />
+      <workItem from="1600801979540" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1600807283119</created>
@@ -89,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600807283119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1600809143765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600809143765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,9 +117,9 @@
       <screen x="1920" y="-228" width="1920" height="1040" />
     </state>
     <state x="2660" y="47" key="FileChooserDialogImpl/0.0.1536.824/1920.-228.1920.1040@1920.-228.1920.1040" timestamp="1600227937218" />
-    <state x="2883" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600807693485">
+    <state x="2883" y="78" key="Vcs.Push.Dialog.v2" timestamp="1600809100335">
       <screen x="1920" y="-228" width="1920" height="1040" />
     </state>
-    <state x="2883" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-228.1920.1040@1920.-228.1920.1040" timestamp="1600807693485" />
+    <state x="2883" y="78" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-228.1920.1040@1920.-228.1920.1040" timestamp="1600809100335" />
   </component>
 </project>
