@@ -138,6 +138,8 @@ footer {
     padding: 20px;
     margin-left: 190px;
     background-color: #FFFFFF;
+    clear: both;
+
 }
 
 .resort {
@@ -214,6 +216,32 @@ video, embed {
     left: 320px;
     text-align: center;
     opacity: 1;
+}
+
+#gallery {
+    height: 200px;
+    position: relative;
+}
+#gallery ul {list-style-type: none;
+    width: 300px;
+}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#gallery img { border-style: none;
+}
+#gallery a { text-decoration: none;
+    font-style: italic;
+    color: #000033;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: .25;
 }
 
 @media only screen and (max-width: 64em) {
@@ -316,6 +344,10 @@ video, embed {
     }
     input[type="submit"]{
         margin-left: 0;
+    }
+
+    #gallery{
+        display: none;
     }
 }
 
